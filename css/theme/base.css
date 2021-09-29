@@ -1,0 +1,10 @@
+* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(45deg, #d6c7b9, #00806b); }
+
+.expire {
+  font-size: 2.167rem;
+  color: red;
+  font-weight: 600; }

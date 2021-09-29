@@ -1,0 +1,157 @@
+.section-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .gift-img {
+    width: 97%;
+    height: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .gift-info {
+    padding: 0.5657rem 0.867rem;
+
+    h3 {
+      color: rgb(255, 6, 122);
+    }
+    h5 {
+      color: rgb(7, 7, 7);
+    }
+  }
+  .deadline {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 7rem;
+      height: 6rem;
+      background-image: linear-gradient(180deg, black, black, rgb(255, 0, 128));
+      color: white;
+      margin-right: 1.567rem;
+      h4 {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+      }
+      span {
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1300px) {
+  .gift-info {
+    padding: 0;
+
+    h3 {
+      font-size: 1.865rem;
+    }
+
+    h5 {
+      font-size: 1.676rem;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .gift-info {
+    padding: 0;
+
+    h3 {
+      font-size: 1.865rem;
+    }
+
+    h5 {
+      font-size: 1.556rem;
+    }
+  }
+  .deadline {
+    margin-top: 1rem;
+    .wrapper {
+      width: 7rem !important;
+      height: 6rem !important;
+      margin-right: 1.167rem;
+      h4 {
+        color: white;
+      }
+      span {
+        font-size: 0.634rem !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 769px) {
+  .gift-info {
+    padding: 0;
+
+    h3 {
+      font-size: 1.865rem;
+    }
+
+    h5 {
+      font-size: 1.556rem;
+    }
+  }
+  .deadline {
+    margin-top: 1rem;
+    .wrapper {
+      width: 5rem;
+      height: 4rem;
+      margin-right: 1.567rem;
+      h4 {
+        color: white;
+      }
+      span {
+        color: white;
+        font-size: 0.12rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .gift-info {
+    padding: 0;
+    margin-top: 3rem;
+
+    h3 {
+      font-size: 2.265rem;
+    }
+
+    h5 {
+      font-size: 1.756rem;
+    }
+  }
+  .deadline {
+    margin-top: 1rem;
+    .wrapper {
+      width: 7rem !important;
+      height: 6rem !important;
+      margin-right: 1.167rem;
+      h4 {
+        color: white;
+      }
+      span {
+        font-size: 0.934rem !important;
+      }
+    }
+  }
+}
