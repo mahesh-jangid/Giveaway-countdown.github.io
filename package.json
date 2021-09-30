@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahesh-jangid/ui-setup.git"
+    "url": "git+https://github.com/mahesh-jangid/Giveaway-countdown.github.io.git"
   },
   "author": "Mahesh Jangid",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mahesh-jangid/ui-setup/issues"
+    "url": "https://github.com/mahesh-jangid/Giveaway-countdown.github.io.git/issues"
   },
-  "homepage": "https://github.com/mahesh-jangid/ui-setup#readme",
+  "homepage": "https://github.com/mahesh-jangid/Giveaway-countdown.github.io.git#readme",
   "dependencies": {
     "gulp-html-replace": "^1.6.2",
     "gulp-wait": "0.0.2",
