@@ -27,18 +27,18 @@ const giveaway = document.querySelector(".giveaway");
 const deadline = document.querySelector(".deadline");
 const timeData = document.querySelectorAll(".deadline h4");
 
-const futureDate = new Date(2021, 8, 29, 16, 46);
+const futureDate = new Date(2021, 8, 30, 16, 20);
 
 const year = futureDate.getFullYear();
 
 const hour = futureDate.getHours();
+
+// set AmPm
+
 function setAmPm() {
   if (hour > 12) {
     return `PM`;
-  } else if (hour == 0) {
-    return `AM`;
-  }
-  {
+  } else {
     return `AM`;
   }
 }
@@ -80,6 +80,8 @@ function calcRemainingTime() {
   let Second = Math.floor((time_diff % oneMinute) / oneSecond);
 
   const values = [Day, Hour, Minute, Second];
+
+  // add "0" before the number if number is less than 10
 
   function format(item) {
     if (item < 10) {
