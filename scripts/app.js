@@ -27,7 +27,7 @@ const giveaway = document.querySelector(".giveaway");
 const deadline = document.querySelector(".deadline");
 const timeData = document.querySelectorAll(".deadline h4");
 
-const futureDate = new Date(2021, 8, 30, 16, 20);
+const futureDate = new Date(2021, 9, 3, 16, 20);
 
 const year = futureDate.getFullYear();
 
